@@ -1,0 +1,192 @@
+/*Default css*/
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+/* Default CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, span, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   background: transparent;
+}
+p a{
+  background: transparent !important;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display: block;
+}
+textarea{
+	outline:none !important;
+}
+
+audio,
+canvas,
+video {
+   display: inline-block;
+}
+a{
+  outline: none !important;
+}
+audio:not([controls]) {
+   display: none;
+   height: 0;
+}
+
+[hidden] { display: none; }
+
+code, kbd, pre, samp {
+   font-family: monospace, serif;
+   font-size: 1em;
+}
+
+pre {
+   white-space: pre;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+
+ins {
+   background-color: #ff9;
+   color: #000;
+   text-decoration: none;
+}
+
+mark {
+   background-color: #A7F4F6;
+   color: #555;
+}
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+   border-bottom: 1px dotted;
+   cursor: help;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+button{
+  outline: none !important;
+}
+input
+{
+    outline:none !important;
+}
+
+textarea{
+  outline: none !important;
+}
+/******************************** End default css*******************************************/
+
+h1,h2,h3,h4,h5,h6,p{
+  margin:0;
+  padding:0;
+}
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/**************************************/
+/************ Header  Area*************/
+/************************************/
+.gallery-slider_wrapper{
+  width:100%;
+  max-width:768px;
+  margin:auto;
+}
+.gallery-slider_wrapper .owl-theme .owl-nav {
+    margin:0;
+}
+.gallery-slider_wrapper .owl-theme .owl-nav [class*=owl-] {
+    width:30px;
+    height:120px;
+    background: #ffb808;
+    font-size: 20px;
+    color:#000;
+    margin:0;
+    padding: 0;
+    border-radius: 0;
+}
+.gallery-slider_wrapper .owl-carousel .owl-nav .owl-prev:before,
+.gallery-slider_wrapper .owl-carousel .owl-nav .owl-next:before {
+    font-family: 'LineAwesome';
+    position: absolute;
+    line-height: 120px;
+    width:30px;
+    text-align: center;
+    top:0;
+    left:0;
+}
+.gallery-slider_wrapper .owl-carousel .owl-nav .owl-prev:before {
+    content: "\f111";
+}
+.gallery-slider_wrapper .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+    top:0;
+    left:-25px;
+}
+.gallery-slider_wrapper .owl-carousel .owl-nav .owl-next:before {
+    content: "\f112";
+}
+.gallery-slider_wrapper .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top:0;
+    right:-24px;
+}
+.gallery-slider_wrapper .owl-theme .owl-nav [class*=owl-]:hover {
+    background: #202020;
+    color:#fff;
+}
+.gallery-slider_wrapper .single-gallery-carousel-thumbnail-box .item {
+    position: relative;
+    margin: 0 5px;
+    height: 120px;
+}
+.gallery-slider_wrapper .single-gallery-carousel-thumbnail-box .item img {
+    height: 100%;
+    cursor: pointer;
+}
+
+
+/**************************************/
+/************ Header  Area*************/
+/************************************/
+
+.item img {
+  width: 500px !important;
+}
